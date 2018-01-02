@@ -1,19 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="985c4a19-4627-4f47-8f27-271b3377e689" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e3d2d890-6e05-48fa-93c3-f54f96a5a3c0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Yelp Db</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Business</ID>
+      <ID>Category</ID>
       <Partitions>
-        <Partition dwd:design-time-name="6bb138a6-d1a2-4cc1-be54-50cf86098eb0">
-          <ID>Business</ID>
-          <Name>Business</Name>
+        <Partition dwd:design-time-name="3cf11245-4165-49fc-9064-4e5e30cb4073">
+          <ID>Category</ID>
+          <Name>Category</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="edec7ed8-91d0-452d-a8f0-be0ee6251356">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bfcf0766-716e-4c34-bd20-dc6e9b506b41">
             <DataSourceViewID>Yelp Db</DataSourceViewID>
-            <TableID>yelp_db_business</TableID>
+            <TableID>yelp_db_category</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Review</ID>
       <Partitions>
-        <Partition dwd:design-time-name="cc1291b0-3385-47b3-b2ef-2fe200f02349">
+        <Partition dwd:design-time-name="78590de9-8c8f-4701-9ea6-eb2cd70495a2">
           <ID>Review</ID>
           <Name>Review</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5157259f-375f-4186-adef-4ff35e3a65dc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b39b4079-1498-49c1-ae0c-06074ae2362f">
             <DataSourceViewID>Yelp Db</DataSourceViewID>
             <TableID>yelp_db_review</TableID>
           </Source>
@@ -42,58 +42,18 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>User</ID>
+      <ID>Business</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8e84c83a-01c4-4e4d-bdd8-586ece995a65">
-          <ID>User</ID>
-          <Name>User</Name>
+        <Partition dwd:design-time-name="109a45cc-6568-4145-9baa-40f6af3e71a0">
+          <ID>Business</ID>
+          <Name>Business</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="80b4a1ee-53e3-454c-af23-ae861707cacf">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="da40f44c-6fb2-4eb7-a275-8cb4c9f974fc">
             <DataSourceViewID>Yelp Db</DataSourceViewID>
-            <TableID>yelp_db_user</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Friend</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="3553a352-ccf5-4e3b-93b3-819fff921d82">
-          <ID>Friend</ID>
-          <Name>Friend</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9cd20c5b-af14-42b7-911c-b088f5947386">
-            <DataSourceViewID>Yelp Db</DataSourceViewID>
-            <TableID>yelp_db_friend</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Attribute</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="293f74da-e301-461a-9176-4098e60e50c4">
-          <ID>Attribute</ID>
-          <Name>Attribute</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fee5c4a3-ca49-4633-a605-316c2441f5d6">
-            <DataSourceViewID>Yelp Db</DataSourceViewID>
-            <TableID>yelp_db_attribute</TableID>
+            <TableID>yelp_db_business</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

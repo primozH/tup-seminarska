@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9d8c1053-698e-40bf-b512-31fefeb20e94" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c1439e02-01c8-45b9-99df-154c89b50f5d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Review</ID>
   <Name>Review</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2750" scrolltop="-6197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7969" y="11409" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001683c0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="review" left="-488" top="-2932" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3799" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000d70e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_review" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,73 +47,106 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2750</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6197</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>-488</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-2932</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="198">
+            <Shape Id="Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id" />
+                <Attribute Id="Business Id" />
+                <Attribute Id="User Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Useful" Expanded="false">
+              <Attributes>
+                <Attribute Id="Useful" />
+              </Attributes>
+              <Position x="272" y="20" />
+            </Shape>
+            <Shape Id="Stars" Expanded="false">
+              <Attributes>
+                <Attribute Id="Stars" />
+              </Attributes>
+              <Position x="525" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7dc180af-2b9c-44d5-8659-ae7d7732b560">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="37df8d5d-2af5-4997-ad8d-18dc7dbfce62">
     <DataSourceViewID>Yelp Db</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="5150917a-b474-4e16-af2d-176130047e34">
+  <ErrorConfiguration dwd:design-time-name="ba4ea914-ad0b-4aea-917f-5af0e56e11e6">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="48c5f559-553a-479b-9548-f693788636f5">
+    <Attribute dwd:design-time-name="820a4aad-c37a-4eef-bbe0-ba787740f321">
       <ID>Id</ID>
       <Name>Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3d2700dc-39ca-4604-9b45-3e2c59c34dd5">
+        <KeyColumn dwd:design-time-name="ba34f418-0b28-4f51-bcde-7796699aaacb">
           <DataType>WChar</DataType>
           <DataSize>22</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b6c37b15-1c89-4f2c-b912-9c5ca2452ffd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b13ebd4a-cf3e-43e7-8600-9efee9644146">
             <TableID>yelp_db_review</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7e3a2775-a2a7-4dff-9dff-e84221c32b97">
+        <AttributeRelationship dwd:design-time-name="0cfffb9b-821d-4834-a117-f7d420182b97">
           <AttributeID>User Id</AttributeID>
           <Name>User Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="dc6a5b9c-6211-42d1-88cd-bbe881a73136">
+        <AttributeRelationship dwd:design-time-name="1285314c-2974-4c22-80f5-2cec1654967f">
           <AttributeID>Business Id</AttributeID>
           <Name>Business Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea5eb609-be8d-43a2-868e-bdaf646b8b30">
+          <AttributeID>Useful</AttributeID>
+          <Name>Useful</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="60933425-023d-4800-b8cc-43ad737e4fd9">
+    <Attribute dwd:design-time-name="4c422e2e-7e49-4143-8413-500c51af8e22">
       <ID>User Id</ID>
       <Name>User Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="38a0ebc1-5ac6-4a5f-b4a0-3a9d90280606">
+        <KeyColumn dwd:design-time-name="1ec04ccd-086b-4087-b74f-2898e954c4a0">
           <DataType>WChar</DataType>
           <DataSize>22</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="122dd5a8-1444-4d1e-a8ad-3f2f58a9fcd7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dabae133-458e-4d81-ba57-6d225a322cdd">
             <TableID>yelp_db_review</TableID>
             <ColumnID>user_id</ColumnID>
           </Source>
@@ -98,14 +157,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="93185d81-b6b3-4434-9a76-f107e6b27983">
+    <Attribute dwd:design-time-name="3c22d0ab-5f4c-4232-9a00-9676ffef35fb">
       <ID>Business Id</ID>
       <Name>Business Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="af7534bf-6657-4c64-b09c-6a5e4ccb69a5">
+        <KeyColumn dwd:design-time-name="e3aeb453-2452-4e9a-92ed-9679eacaefa3">
           <DataType>WChar</DataType>
           <DataSize>22</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c96b0065-c2f6-4b7d-9d38-43c75080ee11">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f5e29fb-a9ec-428b-8d3d-45d97215619e">
             <TableID>yelp_db_review</TableID>
             <ColumnID>business_id</ColumnID>
           </Source>
@@ -116,6 +175,55 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="5739d515-145b-479a-8783-83b403d01e3b">
+      <ID>Stars</ID>
+      <Name>Stars</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e76c940f-39e7-4f5c-b797-3ec1be019ced">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e9720c74-1f6e-42da-be3c-64e59d5ac872">
+            <TableID>yelp_db_review</TableID>
+            <ColumnID>stars</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="647c7fb5-0545-44d2-897b-23d37437bac2">
+      <ID>Useful</ID>
+      <Name>Useful</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="785daf70-a55a-4d89-8b62-713c54fbb4fd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2cd3526-ef80-44c8-820c-da9a6e153aff">
+            <TableID>yelp_db_review</TableID>
+            <ColumnID>useful</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c2813807-ca49-4aab-a119-4b6ffeecb856">
+          <AttributeID>Stars</AttributeID>
+          <Name>Stars</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="58a044e8-d95d-4b71-a5e2-78780f649de6">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="bd2de87e-f050-4800-8e21-b591e8b85bbb">
+          <ID>Useful</ID>
+          <Name>Useful</Name>
+          <SourceAttributeID>Useful</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

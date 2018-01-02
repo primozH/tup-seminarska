@@ -24,8 +24,8 @@
       <FullPath>Business.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>User.dim</Name>
-      <FullPath>User.dim</FullPath>
+      <Name>Photo.dim</Name>
+      <FullPath>Photo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Review.dim</Name>

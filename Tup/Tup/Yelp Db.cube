@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b419485a-d4ef-4d0c-8857-8eab1a4f6f18" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7a8a21d-ad8a-4712-b780-828c7e425e83" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Yelp Db</ID>
   <Name>Yelp Db</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,152 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6390" scrolltop="-4999" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21188" y="11409" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001683c0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="user" left="5420" top="1" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3461" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000850d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_user" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="category" left="2950" top="14616" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000095050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_category" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="business" left="2950" top="7401" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="4815" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000cf120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_business" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="review" left="20" top="601" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3799" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000d70e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_review" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="photo" left="8350" top="8755" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00003a080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="yelp_db_photo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="2102" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[review$fk_reviews_user1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="18" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5420" y="2501" />
+              <point x="4220" y="2501" />
+              <point x="4220" y="2500" />
+              <point x="3020" y="2500" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4051" top="11717" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[category$fk_categories_business1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4450" y="12216" />
+              <point x="4450" y="14616" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5650" top="9409" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[photo$fk_photo_business1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="19" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5950" y="9808" />
+              <point x="8350" y="9808" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1220" top="4100" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3630" height="3801" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[review$fk_reviews_business1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4450" y="7401" />
+              <point x="4450" y="5901" />
+              <point x="1520" y="5901" />
+              <point x="1520" y="4400" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,19 +167,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-6390</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4999</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>1</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -43,45 +189,193 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="cc6b4cf6-73fa-460a-8ddd-f35f5804b906">
+    <Dimension dwd:design-time-name="f3191469-001f-4455-98ad-eb4e18d32dbe">
       <ID>Business</ID>
       <Name>Business</Name>
       <DimensionID>Business</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6a4251e7-00b7-41e9-ae7b-b4b03f7358b2">
+        <Attribute dwd:design-time-name="9cf0ce8e-a4ee-4b03-90cd-29db391b6128">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c6731a0-1f8f-4ae2-9746-c67b74a5a34b">
+          <AttributeID>State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69dc22e0-6305-4a2e-8269-0c42f14f8b98">
           <AttributeID>Id</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c57c2ebb-ce1a-4398-a091-50f52b2e3dee">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="28211e9e-0a8b-4533-8e4c-2362dc5333cb">
-      <ID>Review</ID>
-      <Name>Review</Name>
-      <DimensionID>Review</DimensionID>
+    <Dimension dwd:design-time-name="ec6734cb-5f23-4f13-8eee-d845cd6d4bb5">
+      <ID>Photo</ID>
+      <Name>Photo</Name>
+      <DimensionID>Photo</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="231f35ea-02e5-4a9d-a7d3-456653142d29">
+        <Attribute dwd:design-time-name="7d7a08c7-52d7-47bd-b62f-850b80463de2">
           <AttributeID>Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b5046f0-ff7a-4ac4-ba37-e3587d158020">
-          <AttributeID>User Id</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="7b4c28e9-10d6-43ee-ab66-c6f405db1622">
+        <Attribute dwd:design-time-name="a753f296-cca3-4302-85a4-ca4225b89956">
           <AttributeID>Business Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="a96929d0-d8c5-4274-b88b-b1da33ef87db">
-      <ID>User</ID>
-      <Name>User</Name>
-      <DimensionID>User</DimensionID>
+    <Dimension dwd:design-time-name="e41af27f-c337-4d1d-8ff2-8c07789d9d7d">
+      <ID>Review</ID>
+      <Name>Review</Name>
+      <DimensionID>Review</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="720247bf-5c0c-44a3-817b-f1bd1822cc58">
+        <Attribute dwd:design-time-name="759b63dc-52b4-4cde-b57e-5c763ce47e9b">
           <AttributeID>Id</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="c1622d14-58a7-4088-87f7-aee7d7bce383">
+          <AttributeID>User Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f7e8811-a056-454e-9884-0807e5789b23">
+          <AttributeID>Business Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4971786f-1413-4cf0-917f-589de9e355a3">
+          <AttributeID>Stars</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5f90b70-92d5-44e6-ab8e-3da62e78d521">
+          <AttributeID>Useful</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9505ba1e-a149-4d70-b116-8cd920082b77">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="be78c9b0-9bdf-4ec3-8fde-8cdc9703fe78">
+    <MeasureGroup dwd:design-time-name="181d8c86-6973-42ba-b427-f056e86d3a55">
+      <ID>Category</ID>
+      <Name>Category</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6327ffab-565f-439a-abf7-6a37fdbafb8e">
+          <ID>Category Count</ID>
+          <Name>Category Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6064f634-fdeb-4e5f-9532-45a03fe94c15">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d9b19ffd-4c48-4c41-8873-8a000dff9bfd">
+              <TableID>yelp_db_category</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f238ffd6-6296-40bd-bbf3-1b7e8ed80ddf">
+          <CubeDimensionID>Business</CubeDimensionID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="6ad1606d-3188-4f52-9c9f-5ed8cf978660">
+      <ID>Review</ID>
+      <Name>Review</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1f8a0e42-653b-45bc-b227-5a448c7c19f1">
+          <ID>Stars</ID>
+          <Name>Stars</Name>
+          <Source dwd:design-time-name="3a36a6c7-82e2-4ef1-8124-6059b3fc28b7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73afc2a1-043b-4d11-8fb0-1b574f689e6e">
+              <TableID>yelp_db_review</TableID>
+              <ColumnID>stars</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b36ac17-9158-4054-a2ef-f21849b301be">
+          <ID>Useful - Review</ID>
+          <Name>Useful - Review</Name>
+          <Source dwd:design-time-name="c7822cfb-ccdf-4aaa-9cdf-d7fd06f4bebe">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="79248d09-185a-4b48-b85b-6e18c198d6aa">
+              <TableID>yelp_db_review</TableID>
+              <ColumnID>useful</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="63d8107e-5f11-4a81-a35c-eeed330de059">
+          <ID>Funny - Review</ID>
+          <Name>Funny - Review</Name>
+          <Source dwd:design-time-name="58ea54a3-00a9-4441-9bdd-0ba6a3b9bd70">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14138ac7-70b3-44c3-be08-67d58b5e5a63">
+              <TableID>yelp_db_review</TableID>
+              <ColumnID>funny</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="10c4760e-b60b-4b83-a0e1-8f383866228a">
+          <ID>Cool - Review</ID>
+          <Name>Cool - Review</Name>
+          <Source dwd:design-time-name="a450f709-e39b-48e5-9b5c-6d73236f8e7f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e58c173f-c4ad-4964-87bb-73a0d0b449b1">
+              <TableID>yelp_db_review</TableID>
+              <ColumnID>cool</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5020ebbc-50bb-435a-9db8-2731a7f79afc">
+          <ID>Review Count 1</ID>
+          <Name>Review Count 1</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a7d5c41a-3786-4a36-bdf7-d67c385340a5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2f34c2f0-3721-4750-a6d9-c23096b1ad53">
+              <TableID>yelp_db_review</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="093c30fe-c3e6-4779-a974-f6a052e4a1ff">
+          <CubeDimensionID>Review</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e6edd4aa-c7d9-498a-8a7b-4b94cb2a8519">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="48230c62-c705-4667-9750-f7ddc2422767">
+                  <DataType>WChar</DataType>
+                  <DataSize>22</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b44edf48-737d-423c-810a-abe3b8f57b60">
+                    <TableID>yelp_db_review</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="32f961f9-a42b-4284-a55e-5b470ab97450">
+          <CubeDimensionID>Business</CubeDimensionID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f4d3b7bd-5e3c-492a-acb8-10e1eeec24e5">
       <ID>Business</ID>
       <Name>Business</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -89,69 +383,69 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="08b3eff4-1449-4705-bf8b-75516d71d988">
+        <Measure dwd:design-time-name="acff29f0-ac93-49fd-bc2b-fdc1ef8fc65b">
           <ID>Latitude</ID>
           <Name>Latitude</Name>
-          <Source dwd:design-time-name="2b4a7eda-ab4d-41e2-a8d8-9ae7a2626dcd">
+          <Source dwd:design-time-name="f8f388c2-777a-4dbc-af27-60bb5f219a98">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="81af2c56-d27c-485a-9be9-0c391ba2e462">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="088545a3-c917-4101-9b3d-fe62a163ed31">
               <TableID>yelp_db_business</TableID>
               <ColumnID>latitude</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9c8c59a6-e4e9-43ea-97c4-73b8275048e0">
+        <Measure dwd:design-time-name="0cf4bd32-4019-4e4d-b8a1-2a0661d14b67">
           <ID>Longitude</ID>
           <Name>Longitude</Name>
-          <Source dwd:design-time-name="8c61dab9-5b00-43ef-8341-252f108d69c1">
+          <Source dwd:design-time-name="75995d2a-de42-455c-882a-c8650583af90">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="89bae253-4bba-4f6d-aa35-04c7c7f0ff09">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aef4e676-f9b7-4ecb-a672-1d1b86eac5d5">
               <TableID>yelp_db_business</TableID>
               <ColumnID>longitude</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8154ed75-45d1-4e01-b340-9ff3dcf10115">
-          <ID>Stars</ID>
-          <Name>Stars</Name>
-          <Source dwd:design-time-name="5e9d25c5-4f26-46c8-8ab9-ba2edc8d9645">
+        <Measure dwd:design-time-name="7f58222f-d4cb-4fe1-81a9-8a2a497037b0">
+          <ID>Stars - Business</ID>
+          <Name>Stars - Business</Name>
+          <Source dwd:design-time-name="ce1ad5d7-f454-41fb-8502-af006fed7ddc">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5fa35fa0-ab60-4fe6-9700-80624b1fef13">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3b4e5fc9-6f61-4c09-995c-13601c6deccf">
               <TableID>yelp_db_business</TableID>
               <ColumnID>stars</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="384f2836-7872-45db-a50c-10383c0d184c">
-          <ID>Review Count</ID>
-          <Name>Review Count</Name>
-          <Source dwd:design-time-name="08ad94ae-cfa3-4b5c-9de8-7c7731695e15">
+        <Measure dwd:design-time-name="311502a4-1782-4f6e-af70-5899dfd20e08">
+          <ID>Review Count - Business</ID>
+          <Name>Review Count - Business</Name>
+          <Source dwd:design-time-name="e6cd4d1a-baac-42e3-b4ce-0e30ff2b0195">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="44d70461-7d80-4345-a312-3c120e0ec8ca">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5edc1a35-166b-4992-8528-71fd6a5cd953">
               <TableID>yelp_db_business</TableID>
               <ColumnID>review_count</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="815cefb4-5b3f-42df-9352-1d1e549a50f1">
+        <Measure dwd:design-time-name="c002f8ea-df4d-48a9-a278-a65036d93e56">
           <ID>Is Open</ID>
           <Name>Is Open</Name>
-          <Source dwd:design-time-name="0e9c56e3-1d2a-4b40-b2cf-ff3795d5d037">
+          <Source dwd:design-time-name="45990991-e892-47d1-b485-d737cde077bd">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="514fdba4-6e51-4710-b3d1-015e1dd43bd8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8ce81356-3e84-47ba-9f24-2efd7b740041">
               <TableID>yelp_db_business</TableID>
               <ColumnID>is_open</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="a9e1aa81-94b2-4e59-8c72-a77c73fb6764">
+        <Measure dwd:design-time-name="1c104843-1a1f-4782-944f-05f04b18b05d">
           <ID>Business Count</ID>
           <Name>Business Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="4c8aefd0-c66d-4b62-9291-5b63faced578">
+          <Source dwd:design-time-name="6caf5a17-7bd6-4986-a59d-b44c4063ed1b">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="7be5b760-f283-4b46-90f4-a680e2b6f2ba">
+            <Source xsi:type="RowBinding" dwd:design-time-name="001829db-342c-479d-847d-f2c118016431">
               <TableID>yelp_db_business</TableID>
             </Source>
           </Source>
@@ -160,483 +454,14 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="3f9a94d2-6a73-4b25-a8ac-03ed8a92c62c">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="a8f3222f-3ca9-4d4a-b266-483e4a8d0a71">
           <CubeDimensionID>Business</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="0fb34ec2-9d01-45b8-9f74-125d020c72e0">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="29a8d1dd-091e-4af1-8469-92a44522ac9a">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="413a4dd4-33c0-4c95-b57c-9661c311787c">
-                    <TableID>yelp_db_business</TableID>
-                    <ColumnID>id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="13604ffc-36e4-42a0-9ab0-824eff9bff5f">
-      <ID>Review</ID>
-      <Name>Review</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="88abb524-7fd8-4954-a44b-c704e51b31d9">
-          <ID>Stars - Review</ID>
-          <Name>Stars - Review</Name>
-          <Source dwd:design-time-name="1d579c39-16f6-4c8d-bdcf-d41e53070229">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="0a350135-af6a-444a-8e2d-d3f80a3f62a1">
-              <TableID>yelp_db_review</TableID>
-              <ColumnID>stars</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="c6e55ec3-d531-478e-96dd-ea2cc75a1931">
-          <ID>Useful</ID>
-          <Name>Useful</Name>
-          <Source dwd:design-time-name="677b972c-5b9d-4d51-a5cf-a0bd904a327a">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bab563fa-b393-47cd-9d3a-5bee9f07cd92">
-              <TableID>yelp_db_review</TableID>
-              <ColumnID>useful</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="304d74a2-b596-41a3-bd5b-09cad4e44118">
-          <ID>Funny</ID>
-          <Name>Funny</Name>
-          <Source dwd:design-time-name="f60578e2-35c2-46cf-a207-11a8b9c4b6d4">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="436948a1-9b51-40af-bf9d-4742e5cf4871">
-              <TableID>yelp_db_review</TableID>
-              <ColumnID>funny</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="c1536515-0f59-403b-85cd-95a0c37a11fc">
-          <ID>Cool</ID>
-          <Name>Cool</Name>
-          <Source dwd:design-time-name="1a83a3a6-83b5-45f3-bfc1-2f2a3c27b052">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8c89bce1-5b4c-4b82-afcb-227040bd4886">
-              <TableID>yelp_db_review</TableID>
-              <ColumnID>cool</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="ac6e5680-1be8-471f-b99a-c49bdeea6593">
-          <ID>Review Count 1</ID>
-          <Name>Review Count 1</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="c471bc2d-2503-4084-8f05-788a8cd863c1">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="fbd4e77e-bb65-43f8-9801-222197d9f851">
-              <TableID>yelp_db_review</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d2812f97-b905-454b-aae6-1bb595a66383">
-          <CubeDimensionID>Review</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="38187d3b-98e2-4669-8053-4cb84af1267c">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="678801ad-beb2-48a5-acfa-4148c0462fd7">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e64a6139-2ff9-44b6-b228-e5a980fc2d31">
-                    <TableID>yelp_db_review</TableID>
-                    <ColumnID>id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="73c15cae-0a9d-4fc6-b6e5-b3bad8ab8531">
-          <CubeDimensionID>User</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="2795167f-1500-45d6-83e4-9610a83dc0d0">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="63e4171c-d8f8-4a58-bb0e-d315ada0eafe">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e4743d7-da7d-42ce-ba53-5a5caff7659a">
-                    <TableID>yelp_db_review</TableID>
-                    <ColumnID>user_id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ebab1ca9-1a30-4fae-b111-9b5a7a005d0d">
-          <CubeDimensionID>Business</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="91c349c0-5cc8-43c7-a0d7-a9a61c660c05">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="d808fbe9-2498-4466-aa56-492669af36b3">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8dcbdc7b-6201-4a5b-8d5e-d0f8a70b3956">
-                    <TableID>yelp_db_review</TableID>
-                    <ColumnID>business_id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="a3facdae-7668-4bcb-892b-220818db635b">
-      <ID>User</ID>
-      <Name>User</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="153f5b7a-3a01-40f6-8517-756eb56d9896">
-          <ID>Review Count - User</ID>
-          <Name>Review Count - User</Name>
-          <Source dwd:design-time-name="40f73d29-b90e-42c4-aa74-c553cab8f1e0">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="047634a6-59a6-457a-83bd-0e1995248e05">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>review_count</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="84745127-18ed-4ccb-a927-38a5244e3447">
-          <ID>Useful - User</ID>
-          <Name>Useful - User</Name>
-          <Source dwd:design-time-name="9f6dc1e0-71f0-45ef-94fc-d9c0504ed785">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c731a003-3923-438c-9ec9-ebb11c42ed79">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>useful</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="709722fb-af2e-4eb8-bfcc-8d3c07989205">
-          <ID>Funny - User</ID>
-          <Name>Funny - User</Name>
-          <Source dwd:design-time-name="32cc36d5-1906-4000-a35d-31bc4d924a9a">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a069819-df54-445d-9f52-dfb41ccabd45">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>funny</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="b5b95df4-0a2c-4ac6-9b36-d67024689874">
-          <ID>Cool - User</ID>
-          <Name>Cool - User</Name>
-          <Source dwd:design-time-name="87028b49-e6eb-4620-9fa9-1a0770548d9a">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="82e8c4c2-356d-431d-858a-8e354054a6fe">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>cool</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="66a87431-e5be-4fdd-b826-43bb1735f0f8">
-          <ID>Fans</ID>
-          <Name>Fans</Name>
-          <Source dwd:design-time-name="a43f4853-b458-4cc9-8918-6400200d3116">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="853d1fb1-577f-4096-839d-8b8396c9ffda">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>fans</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="9c38145a-3409-466a-98bc-90512d1ed1f8">
-          <ID>Average Stars</ID>
-          <Name>Average Stars</Name>
-          <Source dwd:design-time-name="fb607e2e-96e7-456f-8f65-5339562e9dab">
-            <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="89373844-0f88-4f34-b61c-7c3ac12d1f48">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>average_stars</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="0a54452d-4ec7-42bf-b219-41cf60936300">
-          <ID>Compliment Hot</ID>
-          <Name>Compliment Hot</Name>
-          <Source dwd:design-time-name="f2778b6c-758f-4750-8008-4862a0c4ec1c">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="04309673-b5dd-4e1b-9479-c2474041a560">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_hot</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="c6662cc8-e083-42a7-9e91-3e0c1dedfdf3">
-          <ID>Compliment More</ID>
-          <Name>Compliment More</Name>
-          <Source dwd:design-time-name="6e486697-69d6-4417-97ec-412d4727c662">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ccfc85c8-ef77-4ec2-8f1d-158d55332c91">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_more</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="74ee4364-845c-4b11-ba53-bc7db1fc3021">
-          <ID>Compliment Profile</ID>
-          <Name>Compliment Profile</Name>
-          <Source dwd:design-time-name="1ab59b88-627b-48e6-b3d1-0d1eb36a6718">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="45370b05-fec5-442b-a387-bda000898b80">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_profile</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="eb321da3-a98b-4380-9a28-c301a9dca63e">
-          <ID>Compliment Cute</ID>
-          <Name>Compliment Cute</Name>
-          <Source dwd:design-time-name="40db9be7-1e6c-4ccb-a958-53fe08d23cff">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3a29a708-0c39-4da2-8553-a6895fdf3d83">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_cute</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="d3a63314-8231-47c0-a923-adc611885103">
-          <ID>Compliment List</ID>
-          <Name>Compliment List</Name>
-          <Source dwd:design-time-name="f97b7e8d-7ddd-40c6-b62b-7290b9ab3629">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="787c803d-f9e7-4307-8d3d-67a66a830ee1">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_list</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="47d26dbe-7bdf-4faa-aafe-23eee3542040">
-          <ID>Compliment Note</ID>
-          <Name>Compliment Note</Name>
-          <Source dwd:design-time-name="a85f3d97-0f43-45eb-9eb5-58b94f45573d">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="63497def-a4b3-4da2-9e04-e3199f86091f">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_note</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="9c8a752b-ff15-4cb0-9a17-f1255d9ca666">
-          <ID>Compliment Plain</ID>
-          <Name>Compliment Plain</Name>
-          <Source dwd:design-time-name="b20c05f8-9c26-4edc-b385-d2925eceae67">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="358672cb-f83c-4291-af12-b9a2c722ee44">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_plain</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="3e04eb31-e726-415e-b2f9-ef225714defc">
-          <ID>Compliment Cool</ID>
-          <Name>Compliment Cool</Name>
-          <Source dwd:design-time-name="40fba3d8-a41a-41ea-aba6-f172c8f04529">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ce40373-e70c-4a1f-a197-eecaf6838f98">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_cool</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="f5f88188-3331-4d26-b8df-071618349f7a">
-          <ID>Compliment Funny</ID>
-          <Name>Compliment Funny</Name>
-          <Source dwd:design-time-name="59e5fef4-c529-4f83-88c2-f6ae239154bd">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="82c45da7-14be-42db-86e4-bed0795660ef">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_funny</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="ca8a8182-8bbb-4b93-8aac-c2446bd1e098">
-          <ID>Compliment Writer</ID>
-          <Name>Compliment Writer</Name>
-          <Source dwd:design-time-name="93a93d17-7e84-4ed5-b7c8-81d64874016b">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="078ed9ea-4e66-490a-8415-a3e866c86e60">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_writer</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="8ecf4016-1924-4904-8e78-294d13b9cac1">
-          <ID>Compliment Photos</ID>
-          <Name>Compliment Photos</Name>
-          <Source dwd:design-time-name="3710b71e-b3b2-4b3e-9c33-48631a730514">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="1e6f892a-54e3-4c20-8668-bd6860383e1c">
-              <TableID>yelp_db_user</TableID>
-              <ColumnID>compliment_photos</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="a32690fb-5121-4888-9630-9b892153e6b7">
-          <ID>User Count</ID>
-          <Name>User Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="7ca0ff20-b426-4d49-8299-e6b541dc8b5b">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="102ab4b4-0c8a-4d06-94ef-5e93246a15d9">
-              <TableID>yelp_db_user</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1b07efbb-7caf-4430-83e6-068840f82c93">
-          <CubeDimensionID>User</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="0723ae83-7c21-4b0e-95b5-ca22700f2804">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="4cbbcdc5-a9b6-455f-b8ff-1d155a55b778">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="80da8f44-f0b9-4f88-ab85-d553318ee823">
-                    <TableID>yelp_db_user</TableID>
-                    <ColumnID>id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="c86e258b-e35a-44c9-a80b-97984fb12acd">
-      <ID>Friend</ID>
-      <Name>Friend</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="25c06f40-a3f1-4664-9f6c-f1254b7399ab">
-          <ID>Friend Count</ID>
-          <Name>Friend Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="ec72bec6-f341-48d9-96e5-ac410a4fe065">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="825ea10b-f136-41c7-b889-6ee0ec4bc3a1">
-              <TableID>yelp_db_friend</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="77af98a9-48a4-4670-bd77-39adfd04b529">
-          <CubeDimensionID>User</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="23b548c9-d9ad-4474-ae3c-fe80f7ab1307">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="9f8d1c54-959b-4eee-b7b7-bb3bd920d655">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9adbc6e9-b6ed-4315-8eef-d0ea56e5496b">
-                    <TableID>yelp_db_friend</TableID>
-                    <ColumnID>user_id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="de3ede09-4d04-4140-b9b4-41126bc5be89">
-      <ID>Attribute</ID>
-      <Name>Attribute</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="51c7f0be-4694-4f31-a950-d06119451568">
-          <ID>Attribute Count</ID>
-          <Name>Attribute Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="1c6ff118-3c9f-4e72-af24-9745749fd564">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="17a520ed-24a2-4edf-a555-a9e0e6420157">
-              <TableID>yelp_db_attribute</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c3aa440d-8cfa-4e8f-9049-af88cd98c469">
-          <CubeDimensionID>Business</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="cf1324ce-039f-4bf1-9031-245476933459">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="b0d1fa74-902b-4b5e-ab71-99c425250251">
-                  <DataType>WChar</DataType>
-                  <DataSize>22</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5712f549-12bb-42e3-80ef-0560852edee2">
-                    <TableID>yelp_db_attribute</TableID>
-                    <ColumnID>business_id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
         </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="aaf980af-cb54-4bea-a7a6-37e62784011a">
+  <Source dwd:design-time-name="e4df261c-9ff9-4863-822d-2952262091d7">
     <DataSourceViewID>Yelp Db</DataSourceViewID>
   </Source>
 </Cube>
