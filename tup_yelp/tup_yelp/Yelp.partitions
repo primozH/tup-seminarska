@@ -61,5 +61,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Yelp User</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3ddd9002-b7d8-430e-b06c-ffe271dcf3f6">
+          <ID>Yelp User</ID>
+          <Name>Yelp User</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4da85bfb-ae8e-4051-8f5f-970fdfcddb5e">
+            <DataSourceViewID>Yelp</DataSourceViewID>
+            <TableID>dbo_YelpUser</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
