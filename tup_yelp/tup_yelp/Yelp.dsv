@@ -1,0 +1,252 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dee53b50-fc71-4b11-a4b9-63f3cfe15ca4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Yelp</ID>
+  <Name>Yelp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Yelp</DataSourceID>
+  <Schema>
+    <xs:schema id="Yelp" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Yelp" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="38b00f9b-002b-42c1-be2e-a0fbb6fdfb5b">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Business" msprop:design-time-name="e3a75a37-3596-464d-87b9-549bd4141772" msprop:DbTableName="Business" msprop:FriendlyName="Business" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="business_id" msprop:design-time-name="cce8012a-0f05-4bd8-84ab-b54378e0c3c0" msprop:DbColumnName="business_id" msprop:FriendlyName="business_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="business_name" msprop:design-time-name="9bdef38b-5559-44aa-aefe-9c7351aa67c0" msprop:DbColumnName="business_name" msprop:FriendlyName="business_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="neighborhood" msprop:design-time-name="c4b06ce4-6d43-4ae5-9ab8-122aad11cba8" msprop:DbColumnName="neighborhood" msprop:FriendlyName="neighborhood" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="business_address" msprop:design-time-name="7791d3a6-b9ba-41c0-8046-87ed5964db6e" msprop:DbColumnName="business_address" msprop:FriendlyName="business_address" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="business_city" msprop:design-time-name="8bb5e4fb-d0c6-4249-88a6-0c4252b10907" msprop:DbColumnName="business_city" msprop:FriendlyName="business_city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="business_state" msprop:design-time-name="7335cbe4-03c7-4e8d-9fd2-398453deaaea" msprop:DbColumnName="business_state" msprop:FriendlyName="business_state" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="postal_code" msprop:design-time-name="f473d219-62eb-4070-953e-b08d324c2612" msprop:DbColumnName="postal_code" msprop:FriendlyName="postal_code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="latitude" msprop:design-time-name="3214e4dc-6c91-47d4-aab4-01adef09c47d" msprop:DbColumnName="latitude" msprop:FriendlyName="latitude" type="xs:double" minOccurs="0" />
+                  <xs:element name="longitude" msprop:design-time-name="60329f61-6a6a-4379-9103-fc521448d8b3" msprop:DbColumnName="longitude" msprop:FriendlyName="longitude" type="xs:double" minOccurs="0" />
+                  <xs:element name="stars" msprop:design-time-name="8a18856a-0069-4b4f-9bfc-de9030f0d3c2" msprop:DbColumnName="stars" msprop:FriendlyName="stars" type="xs:double" minOccurs="0" />
+                  <xs:element name="review_count" msprop:design-time-name="91bd272b-c9d7-43f0-831c-d5f222d51941" msprop:DbColumnName="review_count" msprop:FriendlyName="review_count" type="xs:int" minOccurs="0" />
+                  <xs:element name="is_open" msprop:design-time-name="add218ce-c8c6-405f-9a9b-63852de80b52" msprop:DbColumnName="is_open" msprop:FriendlyName="is_open" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="attributes" msprop:design-time-name="8302f672-e181-4796-a15f-bf292da31322" msprop:DbColumnName="attributes" msprop:FriendlyName="attributes" type="xs:string" minOccurs="0" />
+                  <xs:element name="categories" msprop:design-time-name="2f265e65-2745-420f-b6e9-51c5601a5b22" msprop:DbColumnName="categories" msprop:FriendlyName="categories" type="xs:string" minOccurs="0" />
+                  <xs:element name="business_hours" msprop:design-time-name="13bf83f5-fd6a-437b-bab2-c6d264365486" msprop:DbColumnName="business_hours" msprop:FriendlyName="business_hours" type="xs:string" minOccurs="0" />
+                  <xs:element name="item_type" msprop:design-time-name="65521ef7-06bf-4307-a7ac-2cbe9a70c762" msprop:DbColumnName="item_type" msprop:FriendlyName="item_type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_BusinessCategory" msprop:design-time-name="39f5ac15-fcb4-480d-9481-802cacb86a88" msprop:DbTableName="BusinessCategory" msprop:FriendlyName="BusinessCategory" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="business_id" msprop:design-time-name="376957c7-b78c-4093-b61e-f9e27dba1378" msprop:DbColumnName="business_id" msprop:FriendlyName="business_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="category" msprop:design-time-name="d33f1c93-6d0f-4fcc-89a1-cf2b473748b0" msprop:DbColumnName="category" msprop:FriendlyName="category" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Review" msprop:design-time-name="47962630-23ce-4045-9c4e-5d697983220c" msprop:DbTableName="Review" msprop:FriendlyName="Review" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="review_id" msprop:design-time-name="8d31c5d0-8323-46ef-ab32-390fc5f94634" msprop:DbColumnName="review_id" msprop:FriendlyName="review_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="user_id" msprop:design-time-name="a30275e8-1ff9-4209-b3b8-9b6d3a287eee" msprop:DbColumnName="user_id" msprop:FriendlyName="user_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="business_id" msprop:design-time-name="4b4efcaa-8901-47c2-b937-d283f46a26ec" msprop:DbColumnName="business_id" msprop:FriendlyName="business_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="stars" msprop:design-time-name="a2112207-aa17-4afc-ae0c-1762f6358213" msprop:DbColumnName="stars" msprop:FriendlyName="stars" type="xs:double" minOccurs="0" />
+                  <xs:element name="review_date" msprop:design-time-name="5158539a-5c74-4b4f-96d3-5c3d9d79589d" msprop:DbColumnName="review_date" msprop:FriendlyName="review_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="review_text" msprop:design-time-name="451a6001-f52e-468c-9d34-3c480ec44183" msprop:DbColumnName="review_text" msprop:FriendlyName="review_text" type="xs:string" minOccurs="0" />
+                  <xs:element name="is_useful" msprop:design-time-name="fd51299e-4ecd-4fa1-adc8-679f5d51f030" msprop:DbColumnName="is_useful" msprop:FriendlyName="is_useful" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="is_funny" msprop:design-time-name="df3a2675-b6f7-4b5f-818f-ea2b25cddbe5" msprop:DbColumnName="is_funny" msprop:FriendlyName="is_funny" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="is_cool" msprop:design-time-name="77a33e53-8076-4486-94b5-2c23a734266e" msprop:DbColumnName="is_cool" msprop:FriendlyName="is_cool" type="xs:boolean" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Tip" msprop:design-time-name="861494fc-f6e0-4f04-bb00-ba335267bd2c" msprop:DbTableName="Tip" msprop:FriendlyName="Tip" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="tip_text" msprop:design-time-name="51dedff4-ac5e-4947-9377-e33a72de5864" msprop:DbColumnName="tip_text" msprop:FriendlyName="tip_text" type="xs:string" minOccurs="0" />
+                  <xs:element name="tip_date" msprop:design-time-name="8f2cd623-9b7a-4372-ac28-07ae308c6fd3" msprop:DbColumnName="tip_date" msprop:FriendlyName="tip_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="likes" msprop:design-time-name="14d88ce8-42bd-485d-88ea-a39db0e05be0" msprop:DbColumnName="likes" msprop:FriendlyName="likes" type="xs:int" minOccurs="0" />
+                  <xs:element name="business_id" msprop:design-time-name="8b3aada9-bc8e-4dec-8471-6171d007e9bd" msprop:DbColumnName="business_id" msprop:FriendlyName="business_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="user_id" msprop:design-time-name="88b06680-8c46-49f2-b967-a90d5825522b" msprop:DbColumnName="user_id" msprop:FriendlyName="user_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_YelpUser" msprop:design-time-name="086558a3-1d62-44e5-b5b2-78c67e2f3ffd" msprop:DbTableName="YelpUser" msprop:FriendlyName="YelpUser" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="user_id" msprop:design-time-name="4c03dd79-62bf-46a1-867c-80a025efdf0b" msprop:DbColumnName="user_id" msprop:FriendlyName="user_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="user_name" msprop:design-time-name="2c1e57ba-8746-4473-bc0a-d11a53516d42" msprop:DbColumnName="user_name" msprop:FriendlyName="user_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="review_count" msprop:design-time-name="7bbb718a-b277-4315-ad3b-a2d2721352d9" msprop:DbColumnName="review_count" msprop:FriendlyName="review_count" type="xs:int" minOccurs="0" />
+                  <xs:element name="yelping_since" msprop:design-time-name="74306b8a-82c2-43cd-b76c-663e8597ca3b" msprop:DbColumnName="yelping_since" msprop:FriendlyName="yelping_since" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="friends" msprop:design-time-name="d0bdfa8e-00cf-4d29-a42b-a2a4d3d67b3f" msprop:DbColumnName="friends" msprop:FriendlyName="friends" type="xs:string" minOccurs="0" />
+                  <xs:element name="is_useful" msprop:design-time-name="8c7ae381-3c6b-43d1-9245-961fda3969df" msprop:DbColumnName="is_useful" msprop:FriendlyName="is_useful" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="is_funny" msprop:design-time-name="570fcfce-3f08-4ed0-b3e7-700fe62bcdd6" msprop:DbColumnName="is_funny" msprop:FriendlyName="is_funny" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="is_cool" msprop:design-time-name="233ac540-04ef-48bb-8dd5-7d1e55803f8e" msprop:DbColumnName="is_cool" msprop:FriendlyName="is_cool" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="fans" msprop:design-time-name="6aa72846-9d74-49a0-9bc9-fdcf3c16135a" msprop:DbColumnName="fans" msprop:FriendlyName="fans" type="xs:int" minOccurs="0" />
+                  <xs:element name="elite" msprop:design-time-name="f4cfe382-0345-4145-9263-986d5d6ff485" msprop:DbColumnName="elite" msprop:FriendlyName="elite" type="xs:string" minOccurs="0" />
+                  <xs:element name="average_stars" msprop:design-time-name="6f9d6f0e-f0aa-45fd-89fe-523696526260" msprop:DbColumnName="average_stars" msprop:FriendlyName="average_stars" type="xs:double" minOccurs="0" />
+                  <xs:element name="compliment_hot" msprop:design-time-name="1cc716df-3341-4424-9989-1cb39d77e0d6" msprop:DbColumnName="compliment_hot" msprop:FriendlyName="compliment_hot" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_more" msprop:design-time-name="5c35e982-ee4a-4f4d-9f11-227605825692" msprop:DbColumnName="compliment_more" msprop:FriendlyName="compliment_more" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_profile" msprop:design-time-name="89c74488-c975-4700-afd9-667d63f479ef" msprop:DbColumnName="compliment_profile" msprop:FriendlyName="compliment_profile" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_cute" msprop:design-time-name="232d6ef2-64b6-4dcc-823a-e2f9502dc126" msprop:DbColumnName="compliment_cute" msprop:FriendlyName="compliment_cute" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_list" msprop:design-time-name="06fb5dfa-f7da-421d-866e-82c7dae8b24d" msprop:DbColumnName="compliment_list" msprop:FriendlyName="compliment_list" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_note" msprop:design-time-name="0190de3d-3e42-4e06-976d-043c60c294d5" msprop:DbColumnName="compliment_note" msprop:FriendlyName="compliment_note" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_plain" msprop:design-time-name="3fede65d-c846-4514-a3c8-9af59be6a70b" msprop:DbColumnName="compliment_plain" msprop:FriendlyName="compliment_plain" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_cool" msprop:design-time-name="e16b64ba-4402-4eac-8ac2-3349c0c997b4" msprop:DbColumnName="compliment_cool" msprop:FriendlyName="compliment_cool" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_funny" msprop:design-time-name="86599fa7-de42-4000-959f-c7ba6745b1c6" msprop:DbColumnName="compliment_funny" msprop:FriendlyName="compliment_funny" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_writer" msprop:design-time-name="5b420712-9fdd-4f47-90e3-5194a47944fe" msprop:DbColumnName="compliment_writer" msprop:FriendlyName="compliment_writer" type="xs:int" minOccurs="0" />
+                  <xs:element name="compliment_photos" msprop:design-time-name="1fd05de6-fb87-49ab-a950-d466d05a3408" msprop:DbColumnName="compliment_photos" msprop:FriendlyName="compliment_photos" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_YelpUserFriend" msprop:design-time-name="8df5d481-928e-40b7-a925-cda19d8008df" msprop:DbTableName="YelpUserFriend" msprop:FriendlyName="YelpUserFriend" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="user_id" msprop:design-time-name="37204539-209f-46d1-8ff3-7461ba9e6613" msprop:DbColumnName="user_id" msprop:FriendlyName="user_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="friend_user_id" msprop:design-time-name="37759e0a-d981-429b-adf8-1e991a02869d" msprop:DbColumnName="friend_user_id" msprop:FriendlyName="friend_user_id" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Yelp xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,225 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2329f7b1-55df-4a2b-baf5-ee73173abc25" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Yelp User</ID>
+  <Name>Yelp User</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2271" scrolltop="-1728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8498" y="8911" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001683c0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3461" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000850d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_YelpUser" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2271</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1728</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="413d8670-db76-4f19-87af-fed6d4e07c82">
+    <DataSourceViewID>Yelp</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7cf60519-439c-4719-97ff-b2ab56b9854b">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a1cb7994-3954-42e7-89df-193b1d692748">
+      <ID>User Id</ID>
+      <Name>User Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="45cb3d77-4587-47bf-afd4-9009501c96ae">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d62e616-796e-4e2b-b79e-dcc908a00adf">
+            <TableID>dbo_YelpUser</TableID>
+            <ColumnID>user_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3d17d988-6333-4fdf-8e11-96b293ec29e0">
+          <AttributeID>Is Useful</AttributeID>
+          <Name>Is Useful</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b10af13-b986-40ec-922e-9d6d16d21856">
+          <AttributeID>Elite</AttributeID>
+          <Name>Elite</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2047fb1d-0847-4a6b-951e-536fde7296c7">
+          <AttributeID>Average Stars</AttributeID>
+          <Name>Average Stars</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6aae9d3-3501-47ec-bbc1-5d69795b768e">
+          <AttributeID>Review Count</AttributeID>
+          <Name>Review Count</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99081a7a-76fb-489a-b106-846474a3c1e9">
+      <ID>Is Useful</ID>
+      <Name>Is Useful</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fca968a0-0bb0-4737-aeda-0643f046d903">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1399de3-17c1-41ea-9a2f-aa3d6a8cad6a">
+            <TableID>dbo_YelpUser</TableID>
+            <ColumnID>is_useful</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bb96e90e-9e25-4a3c-9667-7fa6133f620b">
+      <ID>Elite</ID>
+      <Name>Elite</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c63e726-196e-4c90-b955-a8ef91018ee8">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8e441cd-d459-4a3c-81f0-8fe6fbf13816">
+            <TableID>dbo_YelpUser</TableID>
+            <ColumnID>elite</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="637aa47d-eea8-4b09-ac02-93513d669d51">
+      <ID>Average Stars</ID>
+      <Name>Average Stars</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e77b0d99-93ba-4a43-9251-41f7a6346466">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="664941f5-c50f-47a8-85de-d6585ae9fb4d">
+            <TableID>dbo_YelpUser</TableID>
+            <ColumnID>average_stars</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71cfbdf8-188c-4039-9e6b-18ea3b23c344">
+      <ID>Review Count</ID>
+      <Name>Review Count</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bab6023d-cfad-48be-9fe2-df7ea2a13f8d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="018a99e6-d463-4f68-a1e8-aa70118e1822">
+            <TableID>dbo_YelpUser</TableID>
+            <ColumnID>review_count</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="270a4fa6-9160-4f0c-a0f9-ac9b61238e54">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="0c369825-3741-41de-be7c-219fc5a6fb5e">
+          <ID>Average Stars</ID>
+          <Name>Average Stars</Name>
+          <SourceAttributeID>Average Stars</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="23a8d972-c58d-4e1a-b227-0e5a73dfc407">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchy 1</Name>
+      <Levels>
+        <Level dwd:design-time-name="fc7db88c-c355-4a17-b0f7-a38b8530fd45">
+          <ID>Review Count</ID>
+          <Name>Review Count</Name>
+          <SourceAttributeID>Review Count</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="ff618dfd-23ca-421f-b3ba-ca6ee83fa368">
+      <ID>Hierarchy 2</ID>
+      <Name>Hierarchy 2</Name>
+      <Levels>
+        <Level dwd:design-time-name="125c1805-9ab6-4bd3-8a55-fc7296999c23">
+          <ID>Is Useful</ID>
+          <Name>Is Useful</Name>
+          <SourceAttributeID>Is Useful</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="f0e7a5f0-960d-455a-9ad5-3ee56d39ed4f">
+      <ID>Hierarchy 3</ID>
+      <Name>Hierarchy 3</Name>
+      <Levels>
+        <Level dwd:design-time-name="b8ccba14-2b69-4825-bc22-5117f9198d98">
+          <ID>Elite</ID>
+          <Name>Elite</Name>
+          <SourceAttributeID>Elite</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
