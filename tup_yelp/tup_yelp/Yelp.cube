@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="27" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-375" scrolltop="-1404" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22976" y="11409" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="29" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-375" scrolltop="-1404" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22976" y="11409" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001683c0100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUserFriend" left="18751" top="0" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUserFriend" left="18751" top="0" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000095050000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="20" top="0" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3799" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="20" top="0" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3799" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000d70e0000" />
             </control>
@@ -39,7 +39,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Business" left="6020" top="0" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="3270" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Business" left="6020" top="0" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="3270" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000c60c000088130000" />
             </control>
@@ -48,7 +48,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="12290" top="0" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="3461" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="12290" top="0" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="3461" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000850d000088130000" />
             </control>
@@ -57,7 +57,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -66,7 +66,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -75,7 +75,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -84,7 +84,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -93,7 +93,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -102,7 +102,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="BusinessCategory" left="0" top="0" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1513" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="BusinessCategory" left="0" top="0" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1513" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000e9050000" />
             </control>
@@ -113,7 +113,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Review" left="0" top="0" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="4032" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000c00f0000" />
             </control>
@@ -124,7 +124,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Business" left="0" top="0" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="3154" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Business" left="0" top="0" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="3154" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000520c000088130000" />
             </control>
@@ -135,7 +135,16 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="0" top="0" logicalid="26" controlid="14" masterid="0" hint1="0" hint2="0" width="3397" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="0" top="0" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="3397" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000450d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="YelpUser" left="0" top="0" logicalid="28" controlid="15" masterid="0" hint1="0" hint2="0" width="3397" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000450d000088130000" />
             </control>
@@ -267,6 +276,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="be42d2e5-499f-4cd7-a944-f91708b17a15">
           <AttributeID>Is Cool</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8410aebd-ba63-4a11-8f95-ee23ba9b9928">
+          <AttributeID>User Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="279a0637-45b4-4d9c-a0bb-53695107a49f">
+          <AttributeID>Business Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -557,6 +572,18 @@
             </Source>
           </Source>
         </Measure>
+        <Measure dwd:design-time-name="6862d65e-b935-4a56-9ec7-830a2ab87241">
+          <ID>Yelp User Count</ID>
+          <Name>Yelp User Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="bce73915-5403-415a-a2c3-07e7ee6700af">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="84c33838-b239-499f-9156-281e056849a6">
+              <TableID>dbo_YelpUser</TableID>
+            </Source>
+          </Source>
+        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
@@ -573,6 +600,43 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="e6a76731-66bf-43da-ad56-16f5f040b94c">
                     <TableID>dbo_YelpUser</TableID>
                     <ColumnID>user_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c649cfdf-cb12-4074-8694-2e5ef0ec3cca">
+          <CubeDimensionID>Review</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b9139eca-e7e9-4fe3-91e3-b2101277843d">
+              <AttributeID>User Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9306620c-252f-4c00-bfd3-26cf4c238fcc">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5deec7ca-7974-4ce8-8705-ec3ae0151587">
+                    <TableID>dbo_YelpUser</TableID>
+                    <ColumnID>user_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bdc879dc-f6b7-4951-921f-8952ee811e14">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="00a0e3e4-2d91-499c-9ea0-d60325b1de3e">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a571342d-84b3-4775-9758-873b8817220a">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e4b00aeb-6306-4226-bada-d436065b9a7d">
+                    <TableID>dbo_YelpUser</TableID>
+                    <ColumnID>yelping_since</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
